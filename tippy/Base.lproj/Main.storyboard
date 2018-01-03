@@ -32,41 +32,36 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bdl-2g-BQQ">
-                                <rect key="frame" x="16" y="173" width="24" height="21"/>
+                                <rect key="frame" x="16" y="203" width="38" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hhj-QE-pyc">
-                                <rect key="frame" x="201" y="172" width="128" height="21"/>
+                                <rect key="frame" x="201" y="202" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
-                            <view contentMode="scaleToFill" misplaced="YES" id="9NI-He-TRi">
-                                <rect key="frame" x="16" y="228" width="328" height="6"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="olq-Uh-gby">
-                                <rect key="frame" x="201" y="263" width="128" height="21"/>
+                                <rect key="frame" x="201" y="287" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xh7-az-Zt9">
-                                <rect key="frame" x="16" y="264" width="38" height="21"/>
+                                <rect key="frame" x="16" y="287" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="slK-LI-JTl">
-                                <rect key="frame" x="16" y="303" width="328" height="29"/>
+                                <rect key="frame" x="53" y="198" width="115" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%"/>
@@ -88,6 +83,29 @@
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="CeM-As-aal"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tax" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zHA-52-hqC">
+                                <rect key="frame" x="16" y="150" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="jm1-YY-tLl">
+                                <rect key="frame" x="266" y="140" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.89729092529999999" blue="0.86833125799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="fSf-ri-YvJ"/>
+                                </connections>
+                            </textField>
+                            <view contentMode="scaleToFill" misplaced="YES" id="9NI-He-TRi">
+                                <rect key="frame" x="16" y="261" width="328" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -95,9 +113,17 @@
                             <outletCollection property="gestureRecognizers" destination="IX9-eM-WWN" appends="YES" id="pTA-ee-1c8"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip  Calculator " id="ii8-o2-khE"/>
+                    <navigationItem key="navigationItem" title="Tip  Calculator " id="ii8-o2-khE">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="gR1-8n-WNh">
+                            <connections>
+                                <segue destination="tIV-WK-Sjt" kind="push" id="z7S-DK-Wcv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="bilField" destination="C1T-qx-CmR" id="9t0-y0-xJX"/>
+                        <outlet property="taxField" destination="jm1-YY-tLl" id="tss-ad-twk"/>
+                        <outlet property="taxLabel" destination="zHA-52-hqC" id="hVn-ce-mMl"/>
                         <outlet property="tipControl" destination="slK-LI-JTl" id="aRt-tO-wsu"/>
                         <outlet property="tipLabel" destination="hhj-QE-pyc" id="iE1-wa-JhQ"/>
                         <outlet property="totalLabel" destination="olq-Uh-gby" id="x5r-cw-8UW"/>
@@ -111,6 +137,21 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-99.5" y="121.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="deQ-hz-KTO">
+            <objects>
+                <viewController id="tIV-WK-Sjt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oX9-42-FNc" customClass="SettingViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ReS-LX-5Ia"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="01z-Zd-sQp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="356" y="122"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jQE-N1-tIG">
